@@ -1,11 +1,20 @@
-# 2021-캡스톤
+2021 캡스톤
+===
+설명
+- Start or stop the app using Upstart
+- Visit the app at http://flask-uwsgi.ubuntu.local. (Throughout this tutorial, replace ubuntu.local with your machine's name.)
 
-## 📌참여인원
-- 스마트기기공학전공 18011760 이유리
-- 스마트기기공학전공 18011863 최영민
-- 스마트기기공학전공 18011862 조윤식
+Setting up the Python environment
+---
+First, install the following packages.
 
-## 📌계획표
-|No|	일시|	 학습목표 및 내용	|실천과제|
-|:---:|:---:|:---:|:---:|
-|1|	1주차 |	내용 |	한일
+```bash
+pip install flask 
+```
+To check this, visit http://ubuntu.local (or http://flask-uwsgi.ubuntu.local) in your host's browser.
+
+References
+---
+- [uWSGI Quickstart](http://uwsgi-docs.readthedocs.org/en/latest/WSGIquickstart.html)
+- [uWSGI Configuration](http://uwsgi-docs.readthedocs.org/en/latest/Configuration.html)
+- [uWSGI Upstart](http://uwsgi-docs.readthedocs.org/en/latest/Upstart.html)
